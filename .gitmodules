@@ -28,3 +28,6 @@
 [submodule "dot-vim/bundle/vim-qml"]
 	path = dot-vim/bundle/vim-qml
 	url = https://github.com/peterhoeg/vim-qml.git
+[submodule "dot-vim/bundle/vim-antlr"]
+	path = dot-vim/bundle/vim-antlr
+	url = https://github.com/dylon/vim-antlr.git
