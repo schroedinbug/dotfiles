@@ -19,3 +19,6 @@
 [submodule "dot-vim/bundle/dart-vim-plugin"]
 	path = dot-vim/bundle/dart-vim-plugin
 	url = https://github.com/dart-lang/dart-vim-plugin.git
+[submodule "dot-vim/bundle/vim-go"]
+	path = dot-vim/bundle/vim-go
+	url = https://github.com/fatih/vim-go.git
