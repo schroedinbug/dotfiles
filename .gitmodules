@@ -13,3 +13,6 @@
 [submodule "dot-vim/bundle/nerdtree"]
 	path = dot-vim/bundle/nerdtree
 	url = http://github.com/scrooloose/nerdtree.git
+[submodule "dot-vim/bundle/vim-racket"]
+	path = dot-vim/bundle/vim-racket
+	url = https://github.com/wlangstroth/vim-racket.git
