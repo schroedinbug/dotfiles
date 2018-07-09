@@ -10,3 +10,6 @@
 [submodule "dot-vim/bundle/tabular"]
 	path = dot-vim/bundle/tabular
 	url = http://github.com/godlygeek/tabular.git
+[submodule "dot-vim/bundle/nerdtree"]
+	path = dot-vim/bundle/nerdtree
+	url = http://github.com/scrooloose/nerdtree.git
