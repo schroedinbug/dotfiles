@@ -25,3 +25,6 @@
 [submodule "dot-vim/bundle/vim-jsx"]
 	path = dot-vim/bundle/vim-jsx
 	url = https://github.com/mxw/vim-jsx.git
+[submodule "dot-vim/bundle/vim-qml"]
+	path = dot-vim/bundle/vim-qml
+	url = https://github.com/peterhoeg/vim-qml.git
