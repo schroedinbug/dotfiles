@@ -22,3 +22,6 @@
 [submodule "dot-vim/bundle/vim-go"]
 	path = dot-vim/bundle/vim-go
 	url = https://github.com/fatih/vim-go.git
+[submodule "dot-vim/bundle/vim-jsx"]
+	path = dot-vim/bundle/vim-jsx
+	url = https://github.com/mxw/vim-jsx.git
