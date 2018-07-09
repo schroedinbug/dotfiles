@@ -16,3 +16,6 @@
 [submodule "dot-vim/bundle/vim-racket"]
 	path = dot-vim/bundle/vim-racket
 	url = https://github.com/wlangstroth/vim-racket.git
+[submodule "dot-vim/bundle/dart-vim-plugin"]
+	path = dot-vim/bundle/dart-vim-plugin
+	url = https://github.com/dart-lang/dart-vim-plugin.git
