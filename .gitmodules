@@ -31,3 +31,6 @@
 [submodule "dot-vim/bundle/vim-antlr"]
 	path = dot-vim/bundle/vim-antlr
 	url = https://github.com/dylon/vim-antlr.git
+[submodule "dot-vim/bundle/vim-protobuf"]
+	path = dot-vim/bundle/vim-protobuf
+	url = https://github.com/uarun/vim-protobuf.git
