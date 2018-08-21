@@ -1,3 +1,5 @@
+source ${HOME}/.local_pre_vimrc
+
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 
 call pathogen#infect()
