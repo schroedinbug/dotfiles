@@ -34,3 +34,6 @@
 [submodule "dot-vim/bundle/vim-protobuf"]
 	path = dot-vim/bundle/vim-protobuf
 	url = https://github.com/uarun/vim-protobuf.git
+[submodule "dot-vim/bundle/rust.vim"]
+	path = dot-vim/bundle/rust.vim
+	url = https://github.com/rust-lang/rust.vim.git
