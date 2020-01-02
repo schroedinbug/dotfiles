@@ -1,9 +1,12 @@
-PATH="${HOME}/bin:${PATH}"
+PATH="${HOME}/bin:${HOME}/.local/bin:${PATH}"
 
 setopt prompt_subst
 
 # Antibody static load of plugins.
 source ${HOME}/.zsh_plugins.zsh
+
+export NVM_DIR="${HOME}/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 # Initial git prompt based on Oh-My-Zsh
 GIT_PROMPT_PREFIX="%F{blue}git:(%{$fg[red]%}"
@@ -13,10 +16,22 @@ GIT_PROMPT_CLEAN="%F{green}✔%F{blue})"
 
 function git_branch() {
   local ref
-  ref=$(command git symbolic-ref HEAD 2> /dev/null) || \
-        $(command git rev-parse --short HEAD 2> /dev/null) || \
-        $(echo "")
-  echo "${ref#refs/heads/}"
+  ref=$(git symbolic-ref HEAD 2> /dev/null)
+
+  local rc=$?
+  if [[ ${rc} == 0 ]]; then
+      echo "${ref#refs/heads/}"
+      return
+  fi
+
+  ref=$(git rev-parse --short HEAD 2> /dev/null)
+  rc=$?
+  if [[ ${rc} == 0 ]]; then
+      echo "${ref#refs/heads/}"
+      return
+  fi
+
+  echo ""
 }
 
 # Outputs current branch info in prompt format
