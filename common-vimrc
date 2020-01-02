@@ -1,0 +1,12 @@
+set expandtab number nohls
+set shiftwidth=4
+set number
+set tabstop=4
+set textwidth=0
+filetype on
+filetype indent on
+filetype plugin on
+syntax on
+
+au bufread,bufnewfile *.g set syntax=antlr3
+au BufRead,BufNewFile *.g4 set syntax=antlr4
