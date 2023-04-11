@@ -1,4 +1,4 @@
-set expandtab number nohls
+set expandtab number nohls shiftround
 set shiftwidth=4
 set relativenumber
 set tabstop=4
