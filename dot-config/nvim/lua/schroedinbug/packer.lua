@@ -26,7 +26,8 @@ return require('packer').startup(function(use)
     use('godlygeek/tabular')
     use('tpope/vim-abolish')
     use('tpope/vim-fugitive')
-    use('scrooloose/nerdtree')
+    use('towolf/vim-helm')
+    use('fatih/vim-go')
 
     use {
         'VonHeikemen/lsp-zero.nvim',
